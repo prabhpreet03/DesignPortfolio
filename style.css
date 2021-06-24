@@ -1,0 +1,492 @@
+@font-face{
+    font-family: 'saekana';
+    src: url(fonts/Saekana.ttf);
+    font-style: normal;
+    font-weight: 100;
+}
+@font-face{
+    font-family: 'Lato-light';
+    src: url(fonts/Lato-Light.ttf);
+    font-style: normal;
+    font-weight: 100;
+}
+@font-face{
+    font-family: 'Lato-Regular';
+    src: url(fonts/Lato-Regular.ttf);
+    font-style: normal;
+    font-weight: 100;
+}
+@font-face{
+    font-family: 'Lato-Bold';
+    src: url(fonts/Lato-Bold.ttf);
+    font-style: normal;
+    font-weight: 100;
+}
+@font-face{
+    font-family: 'Lato-Thin';
+    src: url(fonts/Lato-Thin.ttf);
+    font-style: normal;
+    font-weight: 100;
+}
+.intro{
+    display: flex;
+    justify-content: space-between;
+    width: 60vw;
+    height: 60vh;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+.intro .left{
+    color: #170F11;
+    width: 35vw;
+    height: 463px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.intro img{
+    width: 343px;
+    height: 473px;
+    object-fit: cover;
+}
+.intro h2{
+    font-family: Lato-Regular;
+    font-size: 48px;
+    margin: 0;
+}
+.intro p{
+    font-family: Lato-light;
+    font-size: 24px;
+    line-height: 29px;
+}
+.banner{
+    display: flex;
+    width: 100vw;
+    height: 600px;
+    margin-bottom: 200px;
+}
+.banner-options img{
+    width: 50vw;
+    height: 600px;
+    object-fit: cover;
+}
+body{
+    background: #F5F3F5;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+.buttons a{
+    background-color: #170F11;
+    color: #F5F3F5;
+    padding: 10px 10px;
+    border-radius: 5px;
+    font-family: Lato-Regular;
+    font-size: 16px;
+    margin-right: 10px;
+}
+.buttons a:hover{
+    color: #170F11;
+    background-color: rgb(173, 173, 173);
+    transition: .5s;
+}
+
+/****************/
+a{
+    text-decoration: none;
+    /* color: #170F11; */
+}
+.nav a{
+    color: #170F11;
+}
+.nav{
+    width: 60vw;
+    margin: 0 auto;
+    padding: 10px 20vw;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    text-align: center;
+    background-color: #F5F3F5;
+    z-index: 10;
+}
+.nav *:hover{
+    color: rgb(0, 115, 160);
+    transition: .5s;
+}
+.banner a:hover{
+    transition: .5s;
+    color: #F5F3F5;
+    background-color: #170F11;
+}
+.logo{
+    font-family: Saekana;
+    font-size: 26px;
+    margin-top: -6px;
+}
+.nav-items{
+    font-family: Lato-light;
+    font-size: 16px;
+}
+.nav-items a{
+    margin-right: 50px;
+}
+#contact{
+    margin-right: 0;
+}
+.banner-img{
+    width: 100%;
+    height: 700px;
+    object-fit: cover;
+    z-index: -1;
+    margin-top: 50px;
+}
+.banner a{
+    color: #170F11;
+    transition: .5s;
+    font-family: saekana;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    font-weight: 100;
+    font-size: 48px;
+    padding: 30px 20px;
+    background: #F5F3F5;
+    width: 488px;
+}
+.banner .description{
+    color: #FFFFFF;
+    position: absolute;
+    bottom: 15%;
+    width: 63vw;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: left;
+}
+.description .heading{
+    font-family: Lato-Regular;
+    font-size: 48px;
+}
+.description .subline{
+    font-family: Lato-light;
+    font-size: 16px;
+}
+.what-we-are-amazing{
+    margin-top: 85px;
+    margin-bottom: 85px;
+    color: #3F393A;
+    font-size: 24px;
+    font-family: Lato-Regular;
+    text-align: center;
+}
+hr{
+    width: 63vw;
+    margin-bottom: 85px;
+}
+.content{
+    width: 63vw;
+    margin: 0 auto;
+}
+.fact-description{
+    width: 26.6vw;
+}
+.fact-description-heading{
+    font-family: Lato-Regular;
+    font-size: 48px;
+    text-align: left;
+    color: #3F393A;
+    margin-bottom: 35px;
+}
+.fact-description-baseline{
+    color: #3F393A;
+    font-family: Lato-light;
+    font-size: 24;
+    text-align: left;
+}
+.fact-img{
+    width: 29.47vw;
+    height: 600px;
+    object-fit: cover;
+}
+.facts{
+    display: flex;
+    justify-content: space-between;
+    width: 63vw;
+    margin-bottom: 85px;
+}
+.social-links a{
+    color: #170F11;
+}
+.social-links{
+    font-family: Lato-Regular;
+    font-size: 16px;
+    width: 63vw;
+    display: flex;   
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-bottom: 85px;
+}
+.footer{
+    background: #170F11;
+    width: 100%;
+    padding: 5px 0;
+    color: #F5F3F5;
+    font-family: Lato-light;
+    font-size: 16px;
+    text-align: center;
+    margin: auto;
+    margin-top: 200px;
+    position: static;
+    bottom: 0!important;
+}
+
+
+
+/*** PHOTO PAGE****/
+
+.page-header{
+    font-family: Lato-light;
+    font-size: 48px;
+    text-align: center;
+    margin: 50px auto;
+    z-index: 1;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+.album-photo{
+    height: 300px;
+    width: 300px;
+    margin-bottom: 5px;
+    object-fit: cover;
+}
+.album-title{
+    color: #170F11;
+}
+.album-title{
+    font-family: Lato-Regular;
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.albums{
+    width: 63vw;
+    margin: 200px 18.5vw;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.top-right{
+    object-position: top right;
+}
+/***Video***/
+.film-list{
+    margin: 200px auto;
+    /* display: flex;
+    flex-direction: row; */
+}
+.detroit-img{
+    object-position: 0 0;
+}
+.film-image{
+    width: 63vw;
+    height: 445px;
+    object-fit: cover;
+    margin: 0 18.5vw;
+}
+.film-title{
+    font-family: Lato-Regular;
+    font-size: 24px;
+    text-align: center;
+}
+.film-description{
+    font-family: Lato-light;
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.more{
+    font-family: Lato-Bold;
+    font-size: 30px;
+    text-align: center;
+    width: fit-content;
+    padding: 20px 50px;
+    margin: 100px auto;
+}
+.more a{
+    color: #F5F3F5;
+    background-color: #170F11;
+    padding: 20px 50px;
+    margin: 100px auto;
+}
+.more a:hover{
+    color: rgb(0, 115, 160);
+    transition: .5s;
+}
+/***About***/
+.title{
+    color: #170F11;
+    font-family: Lato-light;
+    font-size: 48px;
+    text-align: center;
+    margin: 100px auto;
+}
+.our-team-members img{
+    height: 473px;
+    width: 18vw;
+    object-fit: cover;
+}
+#minder-photo{
+    object-position: -300px 0!important;
+}
+.about-us-description{
+    color: #170F11;
+    font-family: Lato-light;
+    line-height: 30px;
+    font-size: 16px;
+    text-align: center;
+    margin: 0px auto;
+    padding-top: 200px;
+    width: 60vw;
+}
+.our-team-members{
+    display: flex;
+    justify-content: space-between;
+    width: 63vw;
+    margin: 0 auto;
+}
+.our-team-members .team-member-name{
+    font-family: Lato-Bold;
+    font-size: 20px;
+    text-align: center;
+    color: #170F11;
+    width: 18vw;
+    margin: 10px auto;
+}
+.our-team-members .team-member-description{
+    font-family: Lato-Light;
+    font-size: 16px;
+    text-align: center;
+    color: #170F11;
+    width: 18vw;
+}
+.gear-description{
+    padding-top: 0;
+    display: flex;
+    justify-content: space-between;
+}
+.gear-description p{
+    width: 40vw;
+    text-align: left;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.gear-description img{
+    width: 18vw;
+    object-fit: cover;
+    object-position: -150px 0;
+}
+.promise{
+    color: #170F11;
+    font-family: Lato-light;
+    line-height: 30px;
+    font-size: 16px;
+    text-align: center;
+    margin: 0px auto;
+    width: 60vw;
+    margin-bottom: 200px;
+}
+
+/**contact**/
+
+
+.touch-btn a{
+    color: #F5F3F5;
+    background-color: #170F11;
+    padding: 20px 50px;
+    font-family: Lato-Regular;
+    font-size: 30px;
+    transition: .5s;
+}
+.touch-btn{
+    width: fit-content;
+    margin: 100px auto;
+}
+.touch-btn a:hover{
+    color: #170F11;
+    background-color: rgb(202, 202, 202);
+    transition: .5s;
+}
+.contact-text{
+    padding-top: 200px;
+    font-family: Lato-Regular;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 0;
+}
+.links img{
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+}
+.links img:hover{
+    box-shadow: 5px 5px 20px rgb(194, 194, 194);
+    transition: .5s;
+}
+.links{
+    display: flex;
+    justify-content: space-between;
+    margin: 200px 18.5vw 200px 18.5vw;
+}
+.film-list a{
+    color: #170F11;
+}
+
+/*****PHOTOGRAPHY PAGES*****/
+
+.images-display{
+    width: 60vw;
+    height: 80%;
+    object-fit: cover;
+    margin: 0 auto;
+    padding: 200px 0;
+}
+.images-display img{
+    max-width: 60vw;
+}
+
+
+/****DESIGN PAGE*****/
+.designs{
+    padding-top: 300px;
+    width: 63vw;
+    margin: 0 auto;
+}
+.design-thumbnail{
+    width: 63vw;
+    object-fit: cover;
+}
+.design-title{
+    font-family: Lato-Regular;
+    font-size: 24px;
+    margin: 24px 0;
+    text-align: center;
+}
+.design-description{
+    font-family: Lato-Light;
+    font-size: 16px;
+    color: #170F11;
+    text-align: center;
+    width: 50vw;
+    margin: 0 auto 100px auto;
+}
+.designs a{
+    color: #170F11;
+}
